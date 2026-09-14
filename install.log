@@ -1,0 +1,18 @@
+Hit:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://repo.yandex.ru/yandex-disk/deb stable InRelease
+Hit:4 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:6 https://repo.yandex.ru/yandex-browser/deb stable InRelease
+Hit:7 https://persistent.oaistatic.com/codex-app-prod/linux/deb stable InRelease
+Hit:8 https://download.docker.com/linux/ubuntu noble InRelease
+Hit:9 https://dl.google.com/linux/chrome-stable/deb stable InRelease
+Hit:10 https://pkg.cloudflareclient.com noble InRelease
+Get:11 https://mirror.trueconf.com/ubuntu noble InRelease [12.0 kB]
+Hit:12 https://ppa.launchpadcontent.net/remmina-ppa-team/remmina-next/ubuntu noble InRelease
+Err:11 https://mirror.trueconf.com/ubuntu noble InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B310C0AC3C536A54
+Reading package lists...
+W: http://repo.yandex.ru/yandex-disk/deb/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: GPG error: https://mirror.trueconf.com/ubuntu noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B310C0AC3C536A54
+E: The repository 'https://mirror.trueconf.com/ubuntu noble InRelease' is not signed.

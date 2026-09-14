@@ -1,0 +1,5 @@
+# Neovim distributions
+alias nvl='NVIM_APPNAME=nvim-lazyvim nvim'
+
+# tmux: attach/create session named after current directory
+alias ta='tmux new-session -A -s "$(basename "$PWD" | tr "[:upper:]" "[:lower:]")"'
