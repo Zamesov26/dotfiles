@@ -1,0 +1,12 @@
+pyright-init() {
+  local source_root="${1:-src}"
+
+  cat > pyrightconfig.json <<EOF
+{
+  "include": ["$source_root", "tests"],
+  "extraPaths": ["$source_root"]
+}
+EOF
+
+  echo "Created pyrightconfig.json with source root: $source_root"
+}
